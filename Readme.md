@@ -141,8 +141,9 @@ __pycache__/
 
 ## 🪪 License
 
-This project is open-source under the **MIT License**.  
+This project is open-source.  
 You’re free to use, modify, and distribute it.
+
 
 
 
