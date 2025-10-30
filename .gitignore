@@ -1,0 +1,14 @@
+
+*.db
+*.sqlite3
+*.sqlite
+
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+
+*.pyc
+*.pyo
+*.pyd
+

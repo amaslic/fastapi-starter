@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi_dev
+    volumes:
+      - .:/app
+    env_file:
+      - .env.dev
+    ports:
+      - "8000:8000"
