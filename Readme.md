@@ -99,7 +99,8 @@ Authorization: Bearer <your_token_here>
 | Method | Endpoint         | Description |
 |--------|------------------|--------------|
 | POST | `/posts`         | Create a new post (requires JWT) |
-| GET  | `/posts/all`     | Get all posts (requires JWT) |
+| GET  | `/posts/all`     | Get all posts for user (requires JWT) |
+| GET  | `/posts/all-posts`     | Get all posts (requires JWT) |
 
 ---
 
@@ -142,5 +143,6 @@ __pycache__/
 
 This project is open-source under the **MIT License**.  
 You’re free to use, modify, and distribute it.
+
 
 
