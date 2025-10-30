@@ -106,10 +106,10 @@ Authorization: Bearer <your_token_here>
 
 ## ⚙️ Environment Variables
 
-Create a `.env` file in the root directory with the following values:
+Edit an `.env` file in the root directory with the following values:
 
 ```
-DATABASE_URL=postgresql://user:password@db:5432/blogdb
+DATABASE_URL=postgresql://user:password@db:5432/blogdb || sqlite:///./app.db (recommended for local development)
 JWT_SECRET=your_super_secret_key
 JWT_ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=120
@@ -143,6 +143,7 @@ __pycache__/
 
 This project is open-source under the **MIT License**.  
 You’re free to use, modify, and distribute it.
+
 
 
 
